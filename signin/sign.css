@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika:wght@700&family=Inter:wght@900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main {
+    background-image: url(asset/bg2.png);
+    background-size: cover ;
+    background-repeat: no-repeat;
+
+}
+nav {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav h1{
+    color :black;
+    font-family: 'inter',sans-serif;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 550px;
+    gap: 5px;
+    font-family: 'Andika',sans-serif;
+}
+.content a{
+    color: black;
+}
+.content input {
+    background-color: #43C2FF;
+    border-radius: 10px;
+    width: 400px;
+    height: 35px;
+    padding-left: 15px;
+    border: none;
+}
+.content button {
+    background-color:#43C2FF;
+    margin-top: 5px;
+    height: 50px;
+    width: 150px;
+    border: solid #43C2FF;
+    border-radius: 20px;
+    color: white;
+    transition-duration: 0.5s;
+}
+.content button:hover {
+    background-color: white; 
+    color: #43C2FF;
+}

@@ -1,0 +1,92 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main {
+    background-image:url("asset/bgn.png");
+}
+nav {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo {
+    margin-right: auto;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+nav img{
+    max-inline-size: 20px;
+}
+.menu button {
+    margin-left: 5px;
+}
+.menu{
+    margin-left: auto;
+    margin-right: 15px;
+}
+input{
+    border-radius: 15px;
+    width: 500px;
+    padding :7px;
+    padding-left: 40px;
+}
+.img{
+    margin-left: 10px;
+    margin-top: -25px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    background-color: white;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-radius: 20px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Andika:wght@700&family=Inter:wght@700&display=swap');
+.content h1{
+    margin-top: 30px;
+    text-shadow: -6px 5px 10px;
+    margin-bottom: 10px;
+    font-family: 'Inter',sans-serif;
+    font-size: 35px;
+}
+.content img{
+    width: 270px;
+    height: 266px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Andika:wght@700&family=Inter:wght@500&display=swap');
+.content p{
+    margin-bottom: 20px;
+    font-family: 'Andika',sans-serif;
+    font-size: 20px;
+}
+.tombol{
+    margin-bottom: 30px;
+}
+.tombol img{
+    width: 30px;
+    height: 30px;
+}
+.tombol button{
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #43C2FF;
+    border-color: #43C2FF;
+}
+.kiri{
+    margin-right: 70px;
+}

@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main {
+    background-image: url(asset/image1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: solid;
+}
+body {
+    padding-bottom: 20px;
+}
+nav {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    margin-right: auto;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+nav button{
+    padding : 7px;
+    border-radius: 10px;
+    background-color: #43C2FF;
+    color: white;
+    border: solid #43C2FF;
+}
+nav button:hover{
+    background-color: white;
+    color: #43C2FF;
+}
+.menu button {
+    margin-left: 5px;
+}
+.menu{
+    margin-left: auto;
+    margin-right: 15px;
+}
+input{
+    border-radius: 15px;
+    width: 500px;
+    padding :7px;
+    padding-left: 40px;
+}
+.img{
+    margin-left: 10px;
+    margin-top: -25px;
+}
+
+.content{
+    padding-top: 5px;
+    padding-bottom: 20px;
+    margin-top : 40px;
+    background-color: rgba(0, 0, 0, .4);
+}
+.content h1{
+    margin-top: 25px;
+    margin-left:  100px;
+    font-family: 'inter',sans-serif;
+    opacity: none;
+    color:  white;
+    font-size: 50px;
+}
+.content p{
+    margin-top: 15px;
+    margin-left: 100px;
+    font-family: 'inter', sans-serif;
+    color: white;
+}
+
+.sosmed{
+    margin-top: 15px;
+    gap: 10px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: start;
+    align-items: left;
+    text-decoration: none;
+}
+.sosmed a{
+    color :white;
+    font-size: 20px;
+}
+.gambar_wisata{
+    margin-top :30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+}
+.gambar1 {
+    margin-left: 20px;
+}
+.gambar1 img {
+    width: 328px;
+    height: 256px;
+}
+.gambar2 img{
+    width: 328px;
+    height: 256px;
+}
+.gambar3{
+    margin-right: 20px;
+}
+.gambar3 img{
+    width: 328px;
+    height: 256px;
+}
